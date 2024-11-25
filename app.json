@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "car_map",
+    "slug": "car_map",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "icon": "./assets/images/car.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "car.map1"
+    },
+    "android": {
+      "package": "car.map1"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/car.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "20124af0-edc3-4e45-81eb-b31288f1991a"
+      }
+    }
+  }
+}
